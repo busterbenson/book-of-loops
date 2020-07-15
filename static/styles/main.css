@@ -1,8 +1,16 @@
 body {
-  max-width: 680px;
-  font-family: courier;
+  font-family:"Open Sans", system-ui, sans-serif;
 }
 
 #main {
-  margin: 10em auto 10em auto;
+  max-width: 800px;
+  margin: 5em auto 5em auto;
+}
+
+.sans-serif {
+	font-family:"Open Sans"
+}
+
+.serif {
+	font-family:"Fredoka One"
 }
