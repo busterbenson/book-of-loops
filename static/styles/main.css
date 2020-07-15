@@ -2,3 +2,7 @@ body {
   max-width: 680px;
   font-family: courier;
 }
+
+#main {
+  margin: 10em auto 10em auto;
+}
