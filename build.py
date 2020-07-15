@@ -3,8 +3,8 @@
 from lettersmith import *
 
 # Update base_url to deployment URL for publishing
-base_url = 'https://hyoomans.netlify.app/'
-site_title = 'Hyoomans'
+base_url = 'https://book-of-loops.netlify.app/'
+site_title = 'Book of Loops'
 site_css = base_url + '/' + 'main.css'
 
 static = files.find('static/**/*')
