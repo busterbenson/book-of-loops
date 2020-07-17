@@ -4,7 +4,7 @@ import sys
 from lettersmith import *
 
 # Update base_url to deployment URL for publishing
-if sys.argv[1] == '--dev':
+if len(sys.argv) > 1 and sys.argv[1] == '--dev':
     base_url = "file:///Users/buster/projects/book-of-loops/public/"
 else:
     base_url = 'https://book-of-loops.netlify.app'
