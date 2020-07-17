@@ -2,4 +2,6 @@
 title: Index
 ---
 
-This is the Book of Loops.
+# There is a large book in front of you.
+
+[[Inspect the book]].

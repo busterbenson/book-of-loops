@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 
+import sys
 from lettersmith import *
 
 # Update base_url to deployment URL for publishing
-base_url = 'https://book-of-loops.netlify.app/'
+if sys.argv[1] == '--dev':
+    base_url = "file:///Users/buster/projects/book-of-loops/public/"
+else:
+    base_url = 'https://book-of-loops.netlify.app'
+
 site_title = 'Book of Loops'
 site_css = base_url + '/' + 'main.css'
 

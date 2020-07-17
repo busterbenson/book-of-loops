@@ -2,11 +2,15 @@
 
 {% block body %}
 <article>
-  <h1>{{doc.title}}</h1>
   <div>{{doc.content}}</div>
-  <h2>Pages that link here</h2>
-  {% for link in doc.meta.backlinks %}
-    <p><a class="wikilink" href="{{ to_url(link.output_path) }}">{{link.title}}</a><br>{{link.summary}}</p>
-  {% endfor %}
-</article>
+  
+<!--   <div id="footer">
+	  <hr />
+  	<small>Links: 
+		  {% for link in doc.meta.backlinks %}
+		    <a class="wikilink" href="{{base_url}}{{ to_url(link.output_path) }}">{{link.title}}</a><br>{#link.summary#}
+		  {% endfor %}
+ 		</small>
+  </div>
+ --></article>
 {% endblock %}
