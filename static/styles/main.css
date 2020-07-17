@@ -29,3 +29,9 @@ h1, h2, .serif {
 .transclude-summary {
 	display: none;
 }
+
+.hexagram {
+	font-size: 100px;
+	margin: 0;
+	padding: 0;
+}

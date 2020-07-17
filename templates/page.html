@@ -3,6 +3,11 @@
 {% block body %}
 <article>
   <div>{{doc.content}}</div>
+
+  {% if doc.meta.hexagram %}
+  	<h1 class="hexagram">{{ doc.meta.hexagram }}</h1>
+  	<h1>{{ doc.meta.iching }}</h1>
+  {% endif %}
   
 <!--   <div id="footer">
 	  <hr />
