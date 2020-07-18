@@ -34,4 +34,6 @@ h1, h2, .serif {
 	font-size: 100px;
 	margin: 0;
 	padding: 0;
+	border: 1px solid #000;
+	text-align: center;
 }

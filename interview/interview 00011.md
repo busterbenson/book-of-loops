@@ -1,7 +1,7 @@
 ---
 title: interview 00011
 ---
-# Question 6 of 6
+# Page 6
 > *Objective Data:* Is there objective data in the external, natural world that can bring some light to this question?
 
 [[hexagram 100011|Yes]] or [[hexagram 000011|No]]
