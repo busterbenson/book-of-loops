@@ -23,7 +23,14 @@ lower: ☲
 red: 01
 green: 10
 blue: 11
+
 ---
+
+A fire in the lake.
+
+Lakes put out fires, and fires destroy lakes. A chemical reaction and transformation are occurring that blur the lines between cause and effect. There is no way to participate in this change without being changed at the same time. 
+
+The recommendation here is to embrace the metamorphosis, to let the crucible change us as we change the crucible. 
 
 Can change into:
 - [[hexagram 111101]]
