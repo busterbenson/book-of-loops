@@ -9,7 +9,7 @@ other_titles: Preponderance of the Great, The Symbol of Great Passing, Excess, G
 
 trigrams: A forest submerged in a great lake.
 
-summary: The trees in the lake are outgrowing their existing container. There's a lot of pent up energy, and cracks in the wall of the container that are about to bust open with the raw energy of life. 
+interpretation: The trees in the lake are outgrowing their existing container. There's a lot of pent up energy, and cracks in the wall of the container that are about to bust open with the raw energy of life. 
 
 advice: The hexagram recommends letting this energy flow by its own power, and following it, because it is mature and ready. It’s time to stop holding back.
 

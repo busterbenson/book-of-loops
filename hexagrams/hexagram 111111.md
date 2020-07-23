@@ -9,7 +9,7 @@ other_titles: The Creative, The Symbol of Heaven, The Creative Principle, Force,
 
 trigrams: The heavens in motion.
 
-summary: The heavens represent the source and life energy of all things. Clouds form and rain pours down giving life to everything in nature. 
+interpretation: The heavens represent the source and life energy of all things. Clouds form and rain pours down giving life to everything in nature. 
 
 advice: You have the power of your intuition, ability, and information you need to create (and/or destroy) what you feel is necessary. The timing is right to do this now. 
 

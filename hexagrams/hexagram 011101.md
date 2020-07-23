@@ -11,7 +11,7 @@ other_titles: Revolution, Transformation, Skinning, The Bridle, The Symbol of Ch
 
 trigrams: Fire in the lake. 
 
-summary: Water extinguishes fire, and fire dries up water. The image of metamorphosis. Each changes the other. Mutually incompatible forces are in dialogue.  
+interpretation: Water extinguishes fire, and fire dries up water. The image of metamorphosis. Each changes the other. Mutually incompatible forces are in dialogue.  
 
 advice: A big error might have been made, but forgiveness is fully extended after the fact when it turns out to have been a necessary mistake. It's time to grow.
 
