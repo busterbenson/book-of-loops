@@ -11,7 +11,7 @@ trigrams: The heavens in motion.
 
 interpretation: The heavens represent the source and life energy of all things. Clouds form and rain pours down giving life to everything in nature. 
 
-advice: You have the power of your intuition, ability, and information you need to create (and/or destroy) what you feel is necessary. The timing is right to do this now. 
+advice: You have access to the full power of your intuition, ability, and wisdom to create (and/or destroy) what you feel is necessary. The timing is right to do this now. 
 
 characters: The cat, turtle, and raven are all playing their heroic forms, and merge to form a chimera.
 
