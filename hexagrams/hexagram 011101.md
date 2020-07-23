@@ -9,13 +9,15 @@ pdf: https://www.dropbox.com/s/gpgxbnkxsvlkcvn/YM-metamorphosis-revolution.pdf?d
 
 other_titles: Revolution, Transformation, Skinning, The Bridle, The Symbol of Change, Molting, Changing, Radical Change, Overthrowing, Upheaval
 
-summary: Fire in the lake. Water extinguishes fire, and fire dries up water. The image of metamorphosis. Each changes the other. Mutually incompatible forces are in dialogue.
+trigrams: Fire in the lake. 
+
+summary: Water extinguishes fire, and fire dries up water. The image of metamorphosis. Each changes the other. Mutually incompatible forces are in dialogue.  
+
+advice: A big error might have been made, but forgiveness is fully extended after the fact when it turns out to have been a necessary mistake. It's time to grow.
 
 characters: The cat is feeling victimized. The turtle is being a fool. The raven is playing the hero.
 
-story: Turtle, Cat, and Raven were in a small wooden boat floating in a lake. Turtle, growing cold, started a fire in the boat. Cat, fearing water almost as much as fire, gets mad at Turtle for burning their boat. Raven puts the fire out by dipping into the lake and flapping his wet wings violently above the fire, stirring up a lot of water, smoke, and ash into the boat and onto Cat's fur and into Turtle's mouth and eyes. The fire is out but they are now unrecognizable.
-
-dilemma: A big error is thought to be made, but forgiveness is fully extended after the fact when it turns out to have been a necessary mistake.
+fable: Turtle, Cat, and Raven were in a small wooden boat floating in a lake. Turtle, growing cold, started a fire in the boat. Cat, fearing water almost as much as fire, gets mad at Turtle for burning their boat. Raven puts the fire out by dipping into the lake and flapping his wet wings violently above the fire, stirring up a lot of water, smoke, and ash into the boat and onto Cat's fur and into Turtle's mouth and eyes. The fire is out but they are now unrecognizable.
 
 hexagram: ䷰
 upper: ☱
@@ -24,18 +26,5 @@ red: 01
 green: 10
 blue: 11
 
+transforms: ['hexagram 111101','hexagram 001101']
 ---
-
-A fire in the lake.
-
-Lakes put out fires, and fires destroy lakes. A chemical reaction and transformation are occurring that blur the lines between cause and effect. There is no way to participate in this change without being changed at the same time. 
-
-The recommendation here is to embrace the metamorphosis, to let the crucible change us as we change the crucible. 
-
-Can change into:
-- [[hexagram 111101]]
-- [[hexagram 001101]]
-- [[hexagram 010101]]
-- [[hexagram 011001]]
-- [[hexagram 011111]]
-- [[hexagram 011100]]

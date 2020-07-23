@@ -9,7 +9,19 @@
   	<h1 class="hexagram">{{ doc.meta.hexagram }}</h1>
   {% endif %}
 
+  <p>{{doc.meta.trigrams}}</p>
+  <p>{{doc.meta.summary}}</p>
+  <p>{{doc.meta.advice}}</p>
+
   <div>{{doc.content}}</div>
+
+  <div id="footer">
+    <small>
+      {% for link in doc.meta.transforms %}
+        <a class="wikilink" href="{{base_url}}">{{link.title}}</a>
+      {% endfor %}
+    </small>
+  </div>
 
 <!--   <div id="footer">
 	  <hr />
