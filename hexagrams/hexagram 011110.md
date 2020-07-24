@@ -23,4 +23,8 @@ lower: ☴
 red: 01
 green: 11
 blue: 10
+
+# Chrissie asked, "My question was about finding love at my age, with my heart, in the middle (maybe) beginning of a global pandemic."
+
+# Ashley asked, "Why am I experiencing so much physical pain or discomfort lately?"
 ---

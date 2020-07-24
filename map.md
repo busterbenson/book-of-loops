@@ -5,6 +5,7 @@ title: Map
 
 ### Heaven over
 * [[hexagram 111111|Heaven]]
+* [[hexagram 111100|Mountain]]
 
 ### Lake over
 * [[hexagram 011110|Wind]]
