@@ -7,7 +7,7 @@ from lettersmith import *
 if len(sys.argv) > 1 and sys.argv[1] == '--dev':
     base_url = "file:///Users/buster/projects/book-of-loops/public/"
 else:
-    base_url = 'https://book-of-loops.com'
+    base_url = 'http://book-of-loops.com'
 
 site_title = 'Book of Loops'
 site_css = base_url + '/' + 'main.css'
