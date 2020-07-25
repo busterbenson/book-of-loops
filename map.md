@@ -14,5 +14,8 @@ title: Map
 * [[hexagram 011101|Fire]]: Metamorphosis
 
 ### Wind over
-* [[hexagram 110110]]: Gentle Wind
+* [[hexagram 110110|Wind]]: Gentle Wind
+
+### Fire over
+* [[hexagram 101011|Lake]]: Opposition
 
