@@ -5,10 +5,7 @@ order: 62
 iching: Gentle Wind
 pdf: https://www.dropbox.com/s/c0qeof2ra16je0u/CC-penetration.pdf?dl=0
 
-other_titles: The Gentle, The Penetrating, Wind, The Symbol of Bending to Enter,
-Willing Submission, Gentle Penetration, Ground, Calculations, Complaisance, Penetrating Influence, The Penetration of the Wind, Humility, Devoted Service, Submission
-
-quotes: ['']
+other_titles: The Gentle, The Penetrating, Wind, The Symbol of Bending to Enter, Willing Submission, Gentle Penetration, Ground, Calculations, Complaisance, Penetrating Influence, The Penetration of the Wind, Humility, Devoted Service, Submission
 
 trigrams: The winds are favorable.
 
