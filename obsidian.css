@@ -1,453 +1,444 @@
+.theme-dark {
+  --background-primary: #272b34;
+  --background-primary-alt: #20242b;
+  --background-secondary: #20242b;
+  --background-secondary-alt: #1a1e24;
+  --background-accent: #000;
+  --background-modifier-border: #424958;
+  --background-modifier-form-field: rgba(0, 0, 0, 0.3);
+  --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #539126;
+  --background-modifier-error: #3d0000;
+  --background-modifier-error-rgb: 61, 0, 0;
+  --background-modifier-error-hover: #470000;
+  --background-modifier-cover: rgba(0, 0, 0, 0.6);
+  --text-accent: #61afef;
+  --text-accent-hover: #69bafd;
+  --text-normal: #dcddde;
+  --text-muted: #888;
+  --text-faint: #555;
+  --text-error: #e16d76;
+  --text-error-hover: #c9626a;
+  --text-highlight-bg: rgba(255, 255, 0, 0.4);
+  --text-selection: rgba(0, 122, 255, 0.2);
+  --text-on-accent: #dcddde;
+  --interactive-normal: #20242b;
+  --interactive-hover: #353b47;
+  --interactive-accent: #4c78cc;
+  --interactive-accent-rgb: 76, 120, 204;
+  --interactive-accent-hover: #5082df;
+  --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+  --scrollbar-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+  --panel-border-color: #18191e;
 
-/*====================_Ars Magna Lucis et Umbrae_===================*/
-/* 2020-06-28 Theme by @mediapathic, but honeslty mostly composed of bits from @death_au and @cotemaxime, */
-/* and a few other fragments here and there.  */
+  --gray-1: #5C6370;
+  --gray-2: #abb2bf;
+  --red: #e06c75;
+  --orange: #d19a66;
+  --green: #98c379;
+  --aqua: #56b6c2;
+  --purple: #c678dd;
+  --blue: #61afef;
+  --yellow: #e5c07b;
+}
 
+.theme-light {
+  --background-primary: #fafafa;
+  --background-primary-alt: #eaeaeb;
+  --background-secondary: #eaeaeb;
+  --background-secondary-alt: #dbdbdc;
+  --background-accent: #fff;
+  --background-modifier-border: #eaeaeb;
+  --background-modifier-form-field: #fff;
+  --background-modifier-form-field-highlighted: #fff;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+  --background-modifier-success: #A4E7C3;
+  --background-modifier-error: #e68787;
+  --background-modifier-error-rgb: 230, 135, 135;
+  --background-modifier-error-hover: #FF9494;
+  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+  --text-accent: #1592ff;
+  --text-accent-hover: #2d9dff;
+  --text-normal: #383a42;
+  --text-muted: #8e8e90;
+  --text-faint: #999999;
+  --text-error: #e75545;
+  --text-error-hover: #f86959;
+  --text-highlight-bg: rgba(255, 255, 0, 0.4);
+  --text-selection: rgba(0, 122, 255, 0.15);
+  --text-on-accent: #f2f2f2;
+  --interactive-normal: #eaeaeb;
+  --interactive-hover: #dbdbdc;
+  --interactive-accent-rgb: 21, 146, 255;
+  --interactive-accent: #5871ef;
+  --interactive-accent-hover: #445bd1;
+  --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2);
+  --scrollbar-bg: rgba(0, 0, 0, 0.05);
+  --scrollbar-thumb-bg: rgba(0, 0, 0, 0.1);
+  --panel-border-color: #dbdbdc;
 
-/* font */
+  --gray-1: #383a42;
+  --gray-2: #383a42;
+  --red: #e75545;
+  --green: #4ea24c;
+  --blue: #3d74f6;
+  --purple: #a625a4;
+  --aqua: #0084bc;
+  --yellow: #e35649;
+  --orange: #986800;
+}
 
 body {
-  /* font stacks taken directly from Notion */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   -webkit-font-smoothing: auto;
 }
 
-body.theme-light, body.theme-dark  {
-  /* change these numbers for an entirely new look */
-  --hue: 203;
-  --sat: 8%;
-  --interactive-accent-rgb: 200, 120, 0;
-  --code: #EB5757;
+.search-result-file-title {
+  color: var(--blue);
 }
 
-/* Dark theme */
-.theme-dark {
-  --L0: 0%;
-  --L1: 23%;
-  --L2: 20%;
-  --L3: 25%;
-
-  --pulp-color:  rgba(255, 180, 0, 0.75);
-  --text-rgb: 240, 240, 240;
-
-  --text-highlight-bg:          rgb(89, 86, 59);
-  --text-selection:             var(--pulp-color);
-  --interactive-normal:         #2a2a2a;
-  --interactive-hover:          #303030;
-
-  --GText: hsl(var(--hue), var(--sat), 90%);
-  --GFill: hsl(var(--hue), var(--sat), 50%);
-  --GLine: hsl(var(--hue), var(--sat), var(--L0));
+li {
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
 }
 
-/* Light theme */
-.theme-light {
-  --L0: 0%;
-  --L1: 100%;
-  --L2: 96%;
-  --L3: 90%;
-
-  --text-rgb: 55, 53, 47;
-
-  --text-highlight-bg:          rgb(251, 243, 219);
-  --text-selection:             rgba(255, 180, 0, 0.15);
-  --interactive-normal:         #f2f3f5;
-  --interactive-hover:          #e9e9e9;
-
-  --GText: hsl(var(--hue), var(--sat), 1i0%);
-  --GFill: hsl(var(--hue), var(--sat), 50%);
-  --GLine: hsl(var(--hue), var(--sat), var(--L3));
+.tag, .tag:hover {
+  color: var(--yellow);
+  background-color: var(--background-primary-alt);
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
-
-body.theme-light, body.theme-dark {
-  --background-primary:         hsl(var(--hue), var(--sat), var(--L1));
-  --background-primary-alt:     hsl(var(--hue), var(--sat), var(--L3));
-  --background-secondary:       hsl(var(--hue), var(--sat), var(--L2));
-  --background-secondary-alt:   hsl(var(--hue), var(--sat), var(--L3));
-  --background-accent:          hsl(var(--hue), var(--sat), var(--L0));
-  --background-modifier-border: rgba(var(--text-rgb), 0.14);
-  --text-accent:                rgba(var(--text-rgb), 0.45);
-  --text-accent-hover:          rgba(var(--text-rgb), 0.45);
-  --text-normal:                rgba(var(--text-rgb), 0.9);
-/*  --text-muted:                 rgba(var(--text-rgb), 0.45); /* subtle mode */
-  --text-muted:                 var(--pulp-color);        /* Full Pulp */
-  --text-faint:                 rgba(var(--text-rgb), 0.25);
-  --text-on-accent:             rgba(var(--text-rgb), 0.9);
-  --interactive-accent:         rgb(var(--interactive-accent-rgb));
-  --interactive-accent-hover:   rgba(var(--interactive-accent-rgb), 0.8);
-}
-body.theme-light {
-  --background-primary-alt:     hsl(var(--hue), var(--sat), var(--L2));
-}
-
-/* Fix font weights */
-.view-header-title {
-  font-weight: 700;
-}
-
-h1, h2, h3, h4, h5, h6, strong, .cm-s-obsidian .cm-header {
-  font-weight: 600;
-}
-
-/* headings */
-.markdown-preview-view h1{
-  font-size: 30px;
-  margin-top: 32px;
-  margin-bottom: 4px;
-}
-.markdown-preview-view h2{
-  font-size: 24px;
-  margin-top: 23px;
-  margin-bottom: 1px;
-}
-.markdown-preview-view h3,
-.markdown-preview-view h4,
-.markdown-preview-view h5,
-.markdown-preview-view h6{
-    font-size: 20px;
-    margin-top: 16px;
-    margin-bottom: 0px;
-}
-
-.cm-s-obsidian .cm-header-1 { font-size: 30px; }
-.cm-s-obsidian .cm-header-2 { font-size: 24px; }
-.cm-s-obsidian .cm-header-3,
-.cm-s-obsidian .cm-header-4,
-.cm-s-obsidian .cm-header-5,
-.cm-s-obsidian .cm-header-6{ font-size: 20px; }
-.cm-s-obsidian .cm-header-6 { color: var(--text-muted); }
-
-/* links */
-.external-link {
-  background-image: none; /* no external link indicator */
-  padding:0;
-  color: var(--text-normal);
-}
-
-.markdown-preview-view .internal-link, .popover.hover-popover .markdown-embed .internal-link {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-weight: 500;
-  line-height: 1.3;
-  border-bottom: 1px solid var(--background-modifier-border);
-  color: var(--text-normal);
-  text-decoration: none;
-}
-
-/* Nifty SVG arrow before internal links */
-/* Also applies to embeds */
-.internal-link::before, .markdown-embed-link::before {
-  content: " ";
-  background-color: var(--text-normal);
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpolygon points='5.4 26 24 7.4 24 20 26 20 26 4 10 4 10 6 22.6 6 4 24.6'%3E%3C/polygon%3E%3C/svg%3E");
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin-right: 4px;
-}
-
-/* embeds (mimics embedded tables from Notion) */
-.markdown-embed-title {
-  font-size: 1.25em;
-  line-height: 1.5;
-  font-weight: 600;
-  text-align: left;
-}
-
-.markdown-preview-view .markdown-embed {
-  border:none;
-  margin:0;
-  border-bottom: 1px solid var(--background-modifier-border);
-  border-radius: 0;
-}
-
-.markdown-embed-link {
-  color: var(--text-normal);
-  right:unset;
-  left: 0;
-  height: 30px;
-  width: calc(100% - 20px);
-  margin-left: 4px;
-  border-bottom: 1px solid var(--background-modifier-border);
-}
-
-.markdown-embed-link::before {
-  font-size: 0.8em;
-}
-
-.markdown-embed-link svg {
-  display: none; /* hide the svg link icon, gets replaced with a nifty arrow */
-}
-
-/* table headers and first column styling */
-.markdown-preview-view th:first-child, .markdown-preview-view td:first-child {
-  border-left: none;
-}
-.markdown-preview-view th:last-child, .markdown-preview-view td:last-child {
-  border-right: none;
-}
-
-.markdown-preview-view th {
-  text-align: left;
-  font-weight: normal;
-  color: var(--text-muted);
-}
-
-.markdown-preview-view td:first-child {
-  font-weight: 600;
-}
-
-.markdown-preview-view hr {
-  height: 1px;
-  opacity: 0.5;
-}
-
-/* popover fixes */
-.popover.hover-popover .markdown-embed-link {
-  border-bottom: none;
-}
-
-/* task lists! */
 .markdown-preview-view .task-list-item-checkbox {
   -webkit-appearance: none;
   box-sizing: border-box;
-  border: 1px solid var(--text-normal);
+  border: 1px solid var(--text-muted);
   border-radius: 2px;
   position: relative;
-  width: 1em;
-  height: 1em;
+  width: 1.3em;
+  height: 1.3em;
   margin: 0;
+  outline: none;
   margin-right: 4px;
   margin-bottom: 2px;
-  transition: background-color 0.3s ease;
   cursor: pointer;
+  vertical-align: baseline;
 }
+
 .markdown-preview-view .task-list-item-checkbox:checked {
-  border:none;
+  border: none;
   background-color: var(--interactive-accent);
 }
-.markdown-preview-view .task-list-item-checkbox:hover {
-  background-color: var(--background-primary-alt);
-}
-/* the SVG check mark */
+
 .markdown-preview-view .task-list-item-checkbox:checked::before {
   content: ' ';
   position: absolute;
   background-color: white;
-  left:1px;
-  top:1px;
-  right:1px;
-  bottom:1px;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpolygon points='5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039'%3E%3C/polygon%3E%3C/svg%3E");
+  left: 2px;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  -webkit-mask-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 14 14\'%3E%3Cpolygon points=\'5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039\'%3E%3C/polygon%3E%3C/svg%3E');
 }
 
-/* this should strike through checked off items, once CSS supports :has
-  (it's draft right now) */
-.markdown-preview-view .task-list-item:has(.task-list-item-checkbox:checked) {
-  text-decoration: line-through;
-  color: var(--text-muted);
+.nav-file-title, .nav-folder-title {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
 }
 
-.markdown-preview-view .task-list-item {
-  margin-left: -40px;
+.nav-file-title-content, .nav-folder-title-content {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
 }
 
-/* Blockquotes */
-.markdown-preview-view blockquote, .cm-s-obsidian pre.HyperMD-quote-1 {
-  border:none;
-  border-left: 3px solid currentcolor;
+.markdown-preview-view.is-readable-line-width .markdown-preview-section,
+.markdown-source-view.is-readable-line-width .CodeMirror {
+  max-width: 900px !important;
+  line-height: 26px;
 }
 
-/* for some reason messing with the padding and size like this caused weirdness
-  with the editor mode cursor position. So just preview for now */
-.markdown-preview-view blockquote {
-  padding: 0 0.9em;
-  font-size: 1.2em;
-  margin: 3px 2px;
+blockquote {
+  margin: 20px 0;
 }
 
-/* code */
-.markdown-preview-view code, .cm-s-obsidian span.cm-inline-code, .cm-s-obsidian pre.HyperMD-codeblock {
-  color: var(--code);
-  font-family: var(--font-monospace);
+body {
+  --font-monospace: 'Fira Code', 'Source Code Pro', monospace;
 }
 
-/* escape character */
-.cm-s-obsidian span.cm-hmd-escape-backslash {
-  color: var(--text-faint);
+mjx-container[jax='CHTML'] {
+  text-align: left;
+  outline: none;
+  font-size: 20px;
 }
 
-/* highlight */
-.markdown-preview-view mark {
-  color: var(--text-normal);
+.cm-s-obsidian pre.HyperMD-codeblock,
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end),
+.markdown-preview-view code {
+  color: inherit;
 }
 
-/* bulleted lists */
-ul {
-  list-style-type: disc;
-  padding-inline-start: 40px;
-}
-ul ul {
-  padding-inline-start: 60px;
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian span.cm-math,
+.cm-s-obsidian span.hmd-fold-math-placeholder {
+  font-weight: 600;
+  font-style: normal;
 }
 
-/* graph view colours */
-.graph-view.color-fill {
-  color: var(--GFill);
-}
-.graph-view.color-line {
-  color: var(--GLine);
-}
-.graph-view.color-text {
-  color: var(--GText);
-}
-.graph-view.color-fill-highlight {
-  color: var(--interactive-accent);
-}
-.graph-view.color-line-highlight {
-  color: var(--interactive-accent);
+.markdown-preview-view code {
+  vertical-align: text-top;
 }
 
-/* misc fixes */
-.cm-s-obsidian span.cm-quote {
-  color: var(--text-normal);
+.markdown-preview-section:not(:first-child) h1,
+.markdown-preview-section:not(:first-child) h2,
+.markdown-preview-section:not(:first-child) h3,
+.markdown-preview-section:not(:first-child) h4,
+.markdown-preview-section:not(:first-child) h5,
+.markdown-preview-section:not(:first-child) h6 {
+  margin-top: 40px !important;
 }
 
- /* bringing in the margins */
-.CodeMirror-wrap, .markdown-preview-view {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 20px 30vh !important;
+h1, h2, h3, h4, h5, h6, strong, b, .view-header-title {
+  font-weight: 600;
+}
+
+.workspace > .workspace-split > .workspace-leaf:first-of-type:last-of-type .view-header {
   border: none;
-  position: relative;
-}
-.CodeMirror-wrap { height:auto; }
-.markdown-source-view { overflow: auto; }
-.CodeMirror-scroll { overflow: visible !important; }
-/*.workspace-leaf-resize-handle { display: none; } */
-
-/* Andy Matuschak mode! V2! for 0.7.0! (so... 2.7?) I think by @cotemaxime and @death_au, I certainly can't claim any of it */
-
-/* everything under .mod-root now. Don't want Andy messing with sidebars */
-/* also, Andy only makes sense for vertical splits, at the root level, right? */
-.mod-root.workspace-split.mod-vertical {
-  overflow-x:auto;
-  --header-width: 36px; /* <- 36px is the header height in the default theme */
-}
-.mod-root.workspace-split.mod-vertical > div {
-  min-width: calc(700px + var(--header-width)); /* <-- 700px is the default theme's "readable" max-width */
-  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.25);
-  position:sticky;
-  left:0;
 }
 
-/* shift sticky position, so titles will stack up to the left */
-/* This will currently stack to a maximum of 10 before resetting */
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-8) { left: calc(var(--header-width) * 0); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-7) { left: calc(var(--header-width) * 1); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-6) { left: calc(var(--header-width) * 2); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-5) { left: calc(var(--header-width) * 3); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-4) { left: calc(var(--header-width) * 4); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-3) { left: calc(var(--header-width) * 5); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-2) { left: calc(var(--header-width) * 6); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-1) { left: calc(var(--header-width) * 7); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n+0) { left: calc(var(--header-width) * 8); }
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n+1) { left: calc(var(--header-width) * 9); }
-
-/* now it's time for the fancy vertical titles */
-
-/* first we'll add a bit of gap for the title to sit inside of */
-.workspace-leaf-content {
-  padding-left: var(--header-width);
-  position: relative;
+.status-bar, .side-dock.mod-right, .side-dock.mod-left {
+  border-color: var(--panel-border-color);
+  border-width: 1px;
 }
 
-/* this is where the magic happens */
-.view-header {
-  writing-mode: vertical-lr;
-  border-right: 1px solid var(--background-secondary-alt);
-  border-left: 2px solid var(--background-secondary-alt);
-  border-top: none;
-  border-bottom: none;
-  height: auto;
-  width: var(--header-width);
-  position: absolute;
-  left:0;
-  top:0;
-  bottom:0;
+.status-bar {
+  --bar-vertical-padding: 4px;
+  --bar-height: calc(22px + (var(--bar-vertical-padding) * 2));
+  line-height: 20px;
+  padding: 0 20px;
+  height: var(--bar-height);
+  max-height: var(--bar-height);
+  min-height: var(--bar-height);
+  overflow: hidden;
 }
 
-/* active titles have different border colours */
-.workspace-leaf.mod-active .view-header {
-  border-right: 2px solid var(--interactive-accent);
-  border-bottom: none;
+.status-bar-item {
+  margin: auto 0;
 }
 
-/* unset the title container height and swap padding */
-.view-header-title-container {
-  height: unset;
-  padding-left: unset;
-  padding-top: 5px;
+.status-bar-item > * {
+  padding-top: var(--bar-vertical-padding) !important;
+  padding-bottom: var(--bar-vertical-padding) !important;
 }
 
-/* fix the long-title-obscuring shadows */
-.view-header-title-container:after {
-  width: 100%;
-  height: 30px;
-  top:unset;
-  bottom: 0;
-  background: linear-gradient(to bottom, transparent, var(--background-secondary));
-}
-.workspace-leaf.mod-active .view-header-title-container:after {
-  background: linear-gradient(to bottom, transparent, var(--background-primary-alt));
+.nav-file.is-active {
+  --background-secondary-alt: var(--interactive-accent);
+  --text-normal: #ffffff;
 }
 
-/* swap the padding/margin around for the header and actions icons */
-.view-header-icon, .view-actions {
-  padding: 10px 5px;
-}
-.view-action {
-  margin: 8px 0;
+.nav-file:not(.is-active):hover .nav-file-title,
+.nav-folder:hover .nav-folder-content {
+  background-color: transparent;
 }
 
-/* get rid of the gap left by the now-missing horizontal title */
-.view-content {
-  height: 100%;
+.side-dock-plugin-panel-inner {
+  padding-left: 6px;
 }
 
-/* make the fake drop target overlay have a background so you can see it. */
-/* TODO: figure out how the fake target overlay works so we can put the title back, too */
-.workspace-fake-target-overlay {
-  background-color: var(--background-primary);
-
-
-/* Auto-collapsing sidebars courtesy @kmaasrud */
-
-.app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover), .app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover) {
-  width: 0px !important;
+a,
+.markdown-preview-view .internal-link {
+  text-decoration: none;
 }
 
-/* Naked Embeds */
-.markdown-embed-title { display:none; }
-.markdown-preview-view .markdown-embed { border:none; padding:0; margin:0; }
-.markdown-preview-view .markdown-embed-content { max-height: unset;}
-.markdown-preview-view .markdown-embed-content>:first-child { margin-top: 0; }
-.markdown-preview-view .markdown-embed-content>:last-child { margin-bottom: 0; }
-
-
-/* level indicators for bullet list */
-
-.cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
-.cm-hmd-list-indent .cm-tab::before, ul ul::before {
- content:'';
- border-left: 1px solid rgba(0, 122, 255, 0.25);
- position: absolute;
+a:hover,
+.markdown-preview-view .internal-link:hover {
+  text-decoration: underline;
 }
-.cm-hmd-list-indent .cm-tab::before { left: 0; top: -5px; bottom: -4px;
+
+.theme-dark :not(pre) > code[class*='language-'],
+.theme-dark pre[class*='language-'] {
+  background: var(--background-primary-alt);
 }
-ul ul::before { left: -11px; top: 0; bottom: 0;
+
+.theme-light :not(pre) > code[class*='language-'],
+.theme-light pre[class*='language-'] {
+  background: var(--background-primary);
+  box-shadow: inset 0 0 0 1px var(--background-primary-alt);
+  border-radius: 4px;
+}
+
+.markdown-preview-view blockquote {
+  border-radius: 4px;
+}
+
+.markdown-preview-view .markdown-embed,
+.markdown-preview-view .file-embed {
+  margin: 0;
+  border-radius: 4px;
+}
+
+.theme-light .token.operator,
+.theme-light .token.entity,
+.theme-light .token.url,
+.theme-light .language-css .token.string,
+.theme-light .style .token.string {
+  background: transparent;
+}
+
+body:not(.is-grabbing) .nav-file:not(.is-active) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder:not(.is-active) .nav-folder-title:hover {
+  --text-normal: var(--text-muted);
+  --background-secondary-alt: var(--background-secondary);
+}
+
+/* Source: https://github.com/AGMStudio/prism-theme-one-dark */
+
+code[class*='language-'],
+pre[class*='language-'] {
+  text-align: left !important;
+  white-space: pre !important;
+  word-spacing: normal !important;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  line-height: 1.5 !important;
+  -moz-tab-size: 4 !important;
+  -o-tab-size: 4 !important;
+  tab-size: 4 !important;
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  -ms-hyphens: none !important;
+  hyphens: none !important;
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+  padding: 1em !important;
+  margin: .5em 0 !important;
+  overflow: auto !important;
+}
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+  padding: .1em !important;
+  border-radius: .3em !important;
+  white-space: normal !important;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: var(--gray-1) !important;
+}
+
+.token.punctuation {
+  color: var(--gray-2) !important;
+}
+
+.token.selector,
+.token.tag {
+  color: var(--red) !important;
+}
+
+.token.property,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.attr-name,
+.token.deleted {
+  color: var(--orange) !important;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.builtin,
+.token.inserted {
+  color: var(--green) !important;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: var(--aqua) !important;
+}
+
+.token.atrule,
+.token.keyword {
+  color: var(--purple) !important;
+}
+
+.token.function,
+.token.macro.property {
+  color: var(--blue) !important;
+}
+
+.token.class-name {
+  color: var(--yellow) !important;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: var(--purple) !important;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold !important;
+}
+
+.token.italic {
+  font-style: italic !important;
+}
+
+.token.entity {
+  cursor: help !important;
+}
+
+pre.line-numbers {
+  position: relative !important;
+  padding-left: 3.8em !important;
+  counter-reset: linenumber !important;
+}
+
+pre.line-numbers > code {
+  position: relative !important;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute !important;
+  pointer-events: none !important;
+  top: 0 !important;
+  font-size: 100% !important;
+  left: -3.8em !important;
+  width: 3em !important; /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px !important;
+  border-right: 0 !important;
+
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.line-numbers-rows > span {
+  pointer-events: none !important;
+  display: block !important;
+  counter-increment: linenumber !important;
+}
+
+.line-numbers-rows > span:before {
+  content: counter(linenumber) !important;
+  color: var(--syntax-gray-1) !important;
+  display: block !important;
+  padding-right: 0.8em !important;
+  text-align: right !important;
 }

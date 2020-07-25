@@ -2,4 +2,5 @@
 title: Leave the book alone
 ---
 
-Probably for the best.
+# You perceive that the timing isn't right. 
+The book of loops respects that. 

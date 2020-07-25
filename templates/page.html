@@ -7,19 +7,23 @@
   {% if doc.meta.hexagram %}
   	<h1>{{ doc.meta.iching }}</h1>
   	<h1 class="hexagram">{{ doc.meta.hexagram }}</h1>
-  {% endif %}
+    <p>{{doc.meta.trigrams}}</p>
+    <p>{{doc.meta.interpretation}}</p>
+    <p>{{doc.meta.advice}}</p>
 
-  <p>{{doc.meta.trigrams}}</p>
-  <p>{{doc.meta.interpretation}}</p>
-  <p>{{doc.meta.advice}}</p>
+  {% elif doc.meta.page == 'daily-note' %}
+    <h1>{{ doc.meta.title }}</h1>
+  {% endif %}
 
   <div>{{doc.content}}</div>
 
   <div id="footer">
     <small>
-      {% for link in doc.meta.transforms %}
-        <a class="wikilink" href="{{base_url}}">{{link.title}}</a>
-      {% endfor %}
+      {% if doc.meta.transforms %}
+        {% for link in doc.meta.transforms %}
+          <a class="wikilink" href="{{base_url}}">{{link.title}}</a>
+        {% endfor %}
+      {% endif %}
     </small>
   </div>
 

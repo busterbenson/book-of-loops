@@ -11,3 +11,4 @@ title: Map
 * [[hexagram 011110|Wind]]
 * [[hexagram 011100|Mountain]]
 * [[hexagram 011101|Fire]]
+
