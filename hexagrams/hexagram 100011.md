@@ -3,7 +3,7 @@ title: hexagram 100011
 order: 37
 
 iching: Decrease
-pdf: https://www.dropbox.com/s/hzlv3fa419mlc98/04-38-inexperience.pdf?dl=0
+pdf: https://www.dropbox.com/s/8ufhecbifaz141o/BY-compensating-sacrifice.pdf?dl=0
 
 hexagram: ䷨
 upper: ☶

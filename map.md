@@ -8,6 +8,9 @@ title: Map
 * [[hexagram 111100|Mountain]]: Withdrawal
 * [[hexagram 111001|Thunder]]: Innocence
 
+### Thunder over
+* [[hexagram 001111|Heaven]]: Great Power
+
 ### Lake over
 * [[hexagram 011110|Wind]]: Critical Mass
 * [[hexagram 011100|Mountain]]: Initiative
@@ -18,4 +21,7 @@ title: Map
 
 ### Fire over
 * [[hexagram 101011|Lake]]: Opposition
+
+### Mountain over
+* [[hexagram 100010|Water]]: Youthful Folly
 

@@ -26,5 +26,5 @@ red: 01
 green: 10
 blue: 11
 
-transforms: ['hexagram 111101','hexagram 001101']
+
 ---
