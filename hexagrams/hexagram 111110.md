@@ -2,7 +2,10 @@
 title: hexagram 111110
 order: 3
 
-iching: Coming to Meet
+newname: Raven along the Playpus's trail
+newdesc: Loophole
+
+oldname: Coming to Meet
 pdf: https://www.dropbox.com/s/tkbs5mbt4y97qaz/44-05-temptation-coming-to-meet.pdf?dl=0
 
 hexagram: ䷫

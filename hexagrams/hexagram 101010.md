@@ -2,7 +2,10 @@
 title: hexagram 101010
 order: 31
 
-iching: Before Completion
+newname: Snake in the Phoenix's cage
+newdesc: Open Loop
+
+oldname: Before Completion
 pdf: https://www.dropbox.com/s/r8x03monv34qs3w/64-27-unfinished-business.pdf?dl=0
 
 hexagram: ䷿

@@ -12,7 +12,7 @@ title: Map
 * [[hexagram 001111|Heaven]]: Great Power
 
 ### Lake over
-* [[hexagram 011110|Wind]]: Critical Mass
+ * [[hexagram 011110|Wind]]: Critical Mass
 * [[hexagram 011100|Mountain]]: Initiative
 * [[hexagram 011101|Fire]]: Metamorphosis
 

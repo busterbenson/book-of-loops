@@ -2,7 +2,10 @@
 title: hexagram 101100
 order: 25
 
-iching: The Wanderer
+newname: Cat in the Phoenix's cage
+newdesc: Lantern
+
+oldname: The Wanderer
 pdf: https://www.dropbox.com/s/iu9fdddb8zpe5mt/MB-transition.pdf?dl=0
 
 hexagram: ䷷

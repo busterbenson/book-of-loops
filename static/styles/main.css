@@ -37,3 +37,9 @@ h1, h2, .serif {
 	border: 1px solid #000;
 	text-align: center;
 }
+
+.hexagram .namedesc {
+	font-size: 12px;
+	font-family: "Open Sans";
+	text-align: center;
+}

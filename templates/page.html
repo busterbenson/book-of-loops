@@ -5,17 +5,27 @@
 
 <article>
   {% if doc.meta.hexagram %}
-  	<h1>{{ doc.meta.iching }}</h1>
-  	<h1 class="hexagram">{{ doc.meta.hexagram }}</h1>
-    <p>{{doc.meta.trigrams}}</p>
-    <p>{{doc.meta.interpretation}}</p>
-    <p>{{doc.meta.advice}}</p>
+  	<h1 class="hexagram">
+      {{ doc.meta.hexagram }}
+      <div class="namedesc" style="font-family: 'Open Sans'; font-size: 14px; text-align: left; color: #333; font-weight: 100; padding: 10px;">
+        <div style="text-align: center;">
+          <a href="{{ doc.meta.pdf }}" target="_new">{{ doc.meta.oldname }}</a> 
+          {% if doc.meta.olddesc %}
+            • {{ doc.meta.olddesc }}
+          {% endif %}
+        </div>
+        <p>{{doc.meta.interpretation}}</p>
+        <p>{{doc.meta.advice}}</p>
+      </div>
+    </h1>
+
+    <h1 style="margin-bottom: 0;">{{ doc.meta.newname }}</h1>
+    <h2 style="margin-top: 10px; color: #aaa;">{{ doc.meta.newdesc }}</h2>
+    <div>{{doc.content}}</div>
 
   {% elif doc.meta.page == 'daily-note' %}
     <h1>{{ doc.meta.title }}</h1>
   {% endif %}
-
-  <div>{{doc.content}}</div>
 
   <div id="footer">
     <small>

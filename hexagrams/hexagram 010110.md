@@ -2,7 +2,10 @@
 title: hexagram 010110
 order: 51
 
-iching: The Well
+newname: Raven along the Snake's river
+newdesc: Dig Deep
+
+oldname: The Well
 pdf: https://www.dropbox.com/s/d98443hktkiqjap/48-53-the-well.pdf?dl=0
 
 hexagram: ䷯

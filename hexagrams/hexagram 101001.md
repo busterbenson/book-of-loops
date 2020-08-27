@@ -2,7 +2,10 @@
 title: hexagram 101001
 order: 27
 
-iching: Biting Through
+newname: Dragon in the Phoenix's cage
+newdesc: Protest
+
+oldname: Biting Through
 pdf: https://www.dropbox.com/s/jgkyvdbxolcz6dt/21-31-discernment.pdf?dl=0
 
 hexagram: ䷔

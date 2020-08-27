@@ -2,7 +2,10 @@
 title: hexagram 001010
 order: 18
 
-iching: Deliverance
+newname: Snake in the Dragon's volcano
+newdesc: Clean Slate
+
+oldname: Deliverance
 pdf: https://www.dropbox.com/s/m50z25801enr06b/40-22-liberation.pdf?dl=0
 
 hexagram: ䷧
