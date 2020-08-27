@@ -15,6 +15,7 @@ title: Map
  * [[hexagram 011110|Wind]]: Critical Mass
 * [[hexagram 011100|Mountain]]: Initiative
 * [[hexagram 011101|Fire]]: Metamorphosis
+* [[hexagram 011111|Heaven]]: Breakthrough
 
 ### Wind over
 * [[hexagram 110110|Wind]]: Gentle Wind

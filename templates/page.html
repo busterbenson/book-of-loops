@@ -25,6 +25,12 @@
 
   {% elif doc.meta.page == 'daily-note' %}
     <h1>{{ doc.meta.title }}</h1>
+    <div>{{doc.content}}</div>
+
+  {% else %}
+    <h1>{{ doc.meta.title }}</h1>
+    <div>{{doc.content}}</div>
+  
   {% endif %}
 
   <div id="footer">
