@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/i5h0d4y5io4431e/15-45-temperance.pdf?dl=0
 hexagram: ䷎
 upper: ☷
 lower: ☶
-red: 01
+blue: 01
 green: 00
-blue: 00
+red: 00
 ---

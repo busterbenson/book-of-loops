@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/1qsvshbp3ztr8zr/60-55-restrictive-regulations.pdf
 hexagram: ䷻
 upper: ☵
 lower: ☱
-red: 00
+blue: 00
 green: 11
-blue: 01
+red: 01
 ---

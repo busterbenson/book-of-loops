@@ -13,9 +13,9 @@ pdf: https://www.dropbox.com/s/jz5u4fg4tj741eb/43-09-resoluteness.pdf?dl=0
 hexagram: ䷪
 upper: ☱
 lower: ☰
-red: 11
-green: 11
 blue: 01
+green: 11
+red: 11
 ---
 
 Platypus made a home in Turtle's lake. It had taken a long time to make this home feel just right. Now, everything was almost perfect, except that the lake had started to dry up. Turtle was worried that their entire habitat would be lost and that there was nothing they could do. 

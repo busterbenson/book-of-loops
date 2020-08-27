@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/479e8viz3s99i48/08-49-holding-together.pdf?dl=0
 hexagram: ䷇
 upper: ☵
 lower: ☷
-red: 00
-green: 10
 blue: 00
+green: 10
+red: 00
 ---

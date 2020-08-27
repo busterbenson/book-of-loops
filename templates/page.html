@@ -19,8 +19,40 @@
       </div>
     </h1>
 
-    <h1 style="margin-bottom: 0;">{{ doc.meta.newname }}</h1>
-    <h2 style="margin-top: 10px; color: #aaa;">{{ doc.meta.newdesc }}</h2>
+    <h1 style="margin-bottom: 0;">{{ doc.meta.newdesc }}</h1>
+    <h2 style="margin-top: 5px; margin-bottom: 0; color: #999;">{{ doc.meta.newname }}</h2>
+
+    <div style="margin-top: 5px; color: #999;">
+      {% if doc.meta.blue == 00 %}
+        The world is new, 
+      {% elif doc.meta.blue == 01 %}
+        The world is falling, 
+      {% elif doc.meta.blue == 10 %}
+        The world is rising, 
+      {% elif doc.meta.blue == 11 %}
+        The world is full, 
+      {% endif %}
+
+      {% if doc.meta.green == 00 %}
+        community is new, 
+      {% elif doc.meta.green == 01 %}
+        community is falling, 
+      {% elif doc.meta.green == 10 %}
+        commuinity is rising, 
+      {% elif doc.meta.green == 11 %}
+        community is full, 
+      {% endif %}
+
+      {% if doc.meta.red == 00 %}
+        and self is new.
+      {% elif doc.meta.red == 01 %}
+        and self is falling. 
+      {% elif doc.meta.red == 10 %}
+        and self is rising. 
+      {% elif doc.meta.red == 11 %}
+        and self is full.
+      {% endif %}
+    </div>
     <div>{{doc.content}}</div>
 
   {% elif doc.meta.page == 'daily-note' %}
@@ -30,7 +62,7 @@
   {% else %}
     <h1>{{ doc.meta.title }}</h1>
     <div>{{doc.content}}</div>
-  
+
   {% endif %}
 
   <div id="footer">

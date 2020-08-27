@@ -11,8 +11,8 @@ pdf: https://www.dropbox.com/s/tkbs5mbt4y97qaz/44-05-temptation-coming-to-meet.p
 hexagram: ䷫
 upper: ☰
 lower: ☴
-red: 11
+blue: 11
 green: 11
-blue: 10
+red: 10
 ---
 

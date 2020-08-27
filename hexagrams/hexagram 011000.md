@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/xf42dtb6ig5k4ix/45-16-gathering-together-contract
 hexagram: ䷬
 upper: ☱
 lower: ☷
-red: 00
+blue: 00
 green: 10
-blue: 10
+red: 10
 ---

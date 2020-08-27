@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/mst0f99417l805u/42-63-increase-breakthrough.pdf?d
 hexagram: ䷩
 upper: ☴
 lower: ☳
-red: 10
+blue: 10
 green: 10
-blue: 01
+red: 01
 ---

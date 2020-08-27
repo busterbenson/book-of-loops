@@ -11,8 +11,8 @@ pdf: https://www.dropbox.com/s/dxufflllzvk66bq/13-03-union-of-forces.pdf?dl=0
 hexagram: ䷌
 upper: ☰
 lower: ☲
-red: 11
-green: 10
 blue: 11
+green: 10
+red: 11
 ---
 

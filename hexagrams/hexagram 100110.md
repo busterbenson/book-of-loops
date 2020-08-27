@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/ir0miqzoabziskk/18-37-repair.pdf?dl=0
 hexagram: ䷑
 upper: ☶
 lower: ☴
-red: 11
+blue: 11
 green: 01
-blue: 00
+red: 00
 ---

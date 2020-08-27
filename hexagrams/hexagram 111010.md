@@ -21,8 +21,8 @@ fable: TBD
 hexagram: ䷅
 upper: ☰
 lower: ☵
-red: 10
-green: 11
 blue: 10
+green: 11
+red: 10
 ---
 

@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/r8x03monv34qs3w/64-27-unfinished-business.pdf?dl=
 hexagram: ䷿
 upper: ☲
 lower: ☵
-red: 10
-green: 01
 blue: 10
+green: 01
+red: 10
 ---

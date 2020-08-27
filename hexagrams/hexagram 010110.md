@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/d98443hktkiqjap/48-53-the-well.pdf?dl=0
 hexagram: ䷯
 upper: ☵
 lower: ☴
-red: 01
+blue: 01
 green: 11
-blue: 00
+red: 00
 ---

@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/5erxt9msmouqpr5/22-35-persona.pdf?dl=0
 hexagram: ䷕
 upper: ☶
 lower: ☲
-red: 11
+blue: 11
 green: 00
-blue: 01
+red: 01
 ---

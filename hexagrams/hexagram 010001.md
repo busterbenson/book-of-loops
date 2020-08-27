@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/batz5aqc17qiram/03-50-difficulty.pdf?dl=0
 hexagram: ䷂
 upper: ☵
 lower: ☳
-red: 00
+blue: 00
 green: 10
-blue: 01
+red: 01
 ---

@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/qj5z1ogo87e56uz/54-23-propriety-making-do.pdf?dl=
 hexagram: ䷵
 upper: ☳
 lower: ☱
-red: 00
+blue: 00
 green: 01
-blue: 11
+red: 11
 ---

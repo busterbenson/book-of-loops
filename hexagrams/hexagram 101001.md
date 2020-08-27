@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/jgkyvdbxolcz6dt/21-31-discernment.pdf?dl=0
 hexagram: ䷔
 upper: ☲
 lower: ☳
-red: 10
+blue: 10
 green: 00
-blue: 11
+red: 11
 ---

@@ -25,9 +25,7 @@ fable: Turtle, Cat, and Raven were in a small wooden boat floating in a lake. Tu
 hexagram: ䷰
 upper: ☱
 lower: ☲
-red: 01
+blue: 01
 green: 10
-blue: 11
-
-
+red: 11
 ---

@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/el34w42ea4qke6v/58-10-joyous-lake-self-indulgence
 hexagram: ䷹
 upper: ☱
 lower: ☱
-red: 00
+blue: 00
 green: 11
-blue: 11
+red: 11
 ---

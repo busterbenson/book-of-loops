@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/yozj1rg54k0hku9/16-17-enthusiasm-self-deception-r
 hexagram: ䷏
 upper: ☳
 lower: ☷
-red: 00
+blue: 00
 green: 00
-blue: 10
+red: 10
 ---

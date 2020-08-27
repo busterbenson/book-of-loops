@@ -21,9 +21,9 @@ characters: The cat and turtle enlightened. The raven is endarkened.
 hexagram: ䷸
 upper: ☴
 lower: ☴
-red: 11
+blue: 11
 green: 11
-blue: 00
+red: 00
 
 # Miri asked, "How should I move forward with my job/work situation? What to apply myself to?"
 ---

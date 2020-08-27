@@ -11,9 +11,9 @@ pdf: https://www.dropbox.com/s/iu9fdddb8zpe5mt/MB-transition.pdf?dl=0
 hexagram: ䷷
 upper: ☲
 lower: ☶
-red: 11
+blue: 11
 green: 00
-blue: 10
+red: 10
 
 # Opposite of Buster's question about relationships that led to 010011
 ---

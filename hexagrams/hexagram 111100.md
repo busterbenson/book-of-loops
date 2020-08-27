@@ -23,9 +23,9 @@ fable: TBD
 hexagram: ䷠
 upper: ☰
 lower: ☶
-red: 10
+blue: 10
 green: 10
-blue: 11
+red: 11
 
 # From Kevin McGillivray, "What parts of myself am I not fully accepting?"
 

@@ -23,9 +23,9 @@ fable: TBD
 hexagram: ䷀
 upper: ☰
 lower: ☰
-red: 11
-green: 11
 blue: 11
+green: 11
+red: 11
 
 # Christin asked, "How can I achieve a greater sense of stability?"
 ---

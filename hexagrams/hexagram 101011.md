@@ -23,9 +23,9 @@ fable: TBD
 hexagram: ䷥
 upper: ☲
 lower: ☱
-red: 10
+blue: 10
 green: 01
-blue: 11
+red: 11
 
 # A question about an early relationship and how it will go.
 ---

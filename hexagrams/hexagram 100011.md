@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/8ufhecbifaz141o/BY-compensating-sacrifice.pdf?dl=
 hexagram: ䷨
 upper: ☶
 lower: ☱
-red: 10
+blue: 10
 green: 01
-blue: 01
+red: 01
 ---

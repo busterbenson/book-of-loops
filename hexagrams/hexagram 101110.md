@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/uchfj8uyjm8han1/50-28-the-sacrificial-vessel.pdf?
 hexagram: ䷱
 upper: ☳
 lower: ☰
-red: 01
-green: 01
 blue: 01
+green: 01
+red: 01
 ---

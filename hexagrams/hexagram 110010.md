@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/va3y7o2ceuyb728/59-59-expansion-dispersion.pdf?dl
 hexagram: ䷺
 upper: ☴
 lower: ☵
-red: 01
+blue: 01
 green: 11
-blue: 00
+red: 00
 ---

@@ -26,7 +26,7 @@ fable: TBD
 hexagram: ䷃
 upper: ☶
 lower: ☵
-red: 10
+blue: 10
 green: 01
-blue: 00
+red: 00
 ---

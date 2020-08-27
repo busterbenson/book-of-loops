@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/5pbpif5fuo3usn5/23-33-disintegration.pdf?dl=0
 hexagram: ䷖
 upper: ☶
 lower: ☷
-red: 10
+blue: 10
 green: 00
-blue: 00
+red: 00
 ---

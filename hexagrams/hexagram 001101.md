@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/sf4hzhvlauh6lzt/55-19-abundance-expansion-of-awar
 hexagram: ䷶
 upper: ☳
 lower: ☲
-red: 01
+blue: 01
 green: 00
-blue: 11
+red: 11
 ---

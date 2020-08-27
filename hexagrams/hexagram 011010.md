@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/lsrxfjrtrqe9l53/47-11-oppression.pdf?dl=0
 hexagram: ䷮
 upper: ☱
 lower: ☵
-red: 00
+blue: 00
 green: 11
-blue: 10
+red: 10
 ---

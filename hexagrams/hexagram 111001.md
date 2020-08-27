@@ -23,9 +23,9 @@ characters: The cat and turtle are brave. The raven is enlightened.
 hexagram: ䷘
 upper: ☰
 lower: ☳
-red: 10
+blue: 10
 green: 10
-blue: 11
+red: 11
 
 # From Miri, "How can I better my relationship with my family especially my mother."
 ---

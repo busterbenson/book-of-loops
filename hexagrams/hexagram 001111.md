@@ -21,9 +21,9 @@ characters: The cat and turtle are afraid, and the raven is enlightened.
 hexagram: ䷡
 upper: ☳
 lower: ☰
-red: 01
+blue: 01
 green: 01
-blue: 11
+red: 11
 
 question_one: 
 line_one: With wavering intuition, this great power is accompanied by shaky uncertainty, like standing too long on your tippy toes. While your power is great, you may be constrained by other force entirely. Rather than leaping to take advantage of the immediate opportunity, play the longer game with [[hexagram 001110|consistency]] and try to re-connect with what you truly believe is the case.

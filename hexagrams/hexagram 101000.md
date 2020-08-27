@@ -11,7 +11,7 @@ pdf: https://www.dropbox.com/s/ndwt8wytrwjwo34/35-32-advance-of-consciousness.pd
 hexagram: ䷢
 upper: ☲
 lower: ☷
-red: 10
-green: 00
 blue: 10
+green: 00
+red: 10
 ---
