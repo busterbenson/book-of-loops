@@ -3,7 +3,7 @@ title: hexagram 011100
 order: 9
 
 newname: Cat at the Turtle's lake
-newdesc: Lucky Turn 
+newdesc: Lucky Twist 
 
 oldname: Initiative
 olddesc: A lake at the top of a mountain.

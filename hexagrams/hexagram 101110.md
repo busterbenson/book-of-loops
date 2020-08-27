@@ -2,7 +2,7 @@
 title: hexagram 101110
 order: 30
 
-newname: Raven in the Phoenix's cage
+newname: Raven in the Phoenix's ashes
 newdesc: Cauldron
 
 oldname: Cauldron

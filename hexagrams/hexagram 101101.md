@@ -2,7 +2,7 @@
 title: hexagram 101101
 order: 26
 
-newname: Phoenix in the Phoenix's cage
+newname: Phoenix in the Phoenix's ashes
 newdesc: All Consuming
 
 oldname: Clinging Fire

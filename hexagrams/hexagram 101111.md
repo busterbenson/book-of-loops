@@ -2,7 +2,7 @@
 title: hexagram 101111
 order: 29
 
-newname: Platypus in the Phoenix's cage
+newname: Platypus in the Phoenix's ashes
 newdesc: Fuel
 
 oldname: Great Possession

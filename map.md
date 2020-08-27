@@ -3,26 +3,26 @@ title: Map
 ---
 # A map of what's been explored so far.
 
-### Heaven over
-* [[hexagram 111111|Heaven]]: Creative Heaven
-* [[hexagram 111100|Mountain]]: Withdrawal
-* [[hexagram 111001|Thunder]]: Innocence
+### Platypus's trail
+* [[hexagram 111111|Platypus]]: Creative Heaven / Whole Shebang
+* [[hexagram 111100|Cat]]: Withdrawal / Nonviolence
+* [[hexagram 111001|Dragon]]: Innocence / Beginner's Mind
 
-### Thunder over
-* [[hexagram 001111|Heaven]]: Great Power
+### Dragon's volcano
+* [[hexagram 001111|Platypus]]: Great Power / Great Timing
 
-### Lake over
- * [[hexagram 011110|Wind]]: Critical Mass
-* [[hexagram 011100|Mountain]]: Initiative
-* [[hexagram 011101|Fire]]: Metamorphosis
-* [[hexagram 011111|Heaven]]: Breakthrough
+### Turtle's lake
+ * [[hexagram 011110|Raven]]: Critical Mass / Critical Mass
+* [[hexagram 011100|Cat]]: Initiative / Lucky Twist
+* [[hexagram 011101|Phoenix]]: Metamorphosis / Hot Seat
+* [[hexagram 011111|Platypus]]: Breakthrough / Transmute
 
-### Wind over
-* [[hexagram 110110|Wind]]: Gentle Wind
+### Raven's tree
+* [[hexagram 110110|Raven]]: Gentle Wind / Break Bread
 
-### Fire over
-* [[hexagram 101011|Lake]]: Opposition
+### Phoenix's ashes
+* [[hexagram 101011|Turtle]]: Opposition / Entrenched
 
-### Mountain over
-* [[hexagram 100010|Water]]: Youthful Folly
+### Cat's perch
+* [[hexagram 100010|Snake]]: Youthful Folly / Sand Castle
 

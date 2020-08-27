@@ -2,7 +2,7 @@
 title: hexagram 101100
 order: 25
 
-newname: Cat in the Phoenix's cage
+newname: Cat in the Phoenix's ashes
 newdesc: Lantern
 
 oldname: The Wanderer

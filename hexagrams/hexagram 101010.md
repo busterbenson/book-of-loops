@@ -2,7 +2,7 @@
 title: hexagram 101010
 order: 31
 
-newname: Snake in the Phoenix's cage
+newname: Snake in the Phoenix's ashes
 newdesc: Open Loop
 
 oldname: Before Completion

@@ -3,7 +3,7 @@ title: hexagram 001111
 order: 20
 
 newname: Phoenix in the Dragon's volcano
-newdesc: Kairos
+newdesc: Great Timing
 
 oldname: Great Power
 olddesc: Thunder booming across the sky. 

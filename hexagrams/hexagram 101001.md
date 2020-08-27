@@ -2,7 +2,7 @@
 title: hexagram 101001
 order: 27
 
-newname: Dragon in the Phoenix's cage
+newname: Dragon in the Phoenix's ashes
 newdesc: Protest
 
 oldname: Biting Through

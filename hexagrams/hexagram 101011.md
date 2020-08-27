@@ -2,7 +2,7 @@
 title: hexagram 101011
 order: 28
 
-newname: Turtle in the Phoenix's cage
+newname: Turtle in the Phoenix's ashes
 newdesc: Entrenched
 
 oldname: Opposition

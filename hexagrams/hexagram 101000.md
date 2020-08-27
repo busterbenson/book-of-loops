@@ -2,7 +2,7 @@
 title: hexagram 101000
 order: 32
 
-newname: Mouse in the Phoenix's cage
+newname: Mouse in the Phoenix's ashes
 newdesc: Groundswell
 
 oldname: Progress
