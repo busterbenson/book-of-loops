@@ -1,4 +1,4 @@
-Jinja2==2.11.2
+Jinja2==2.11.3
 -e git+https://github.com/gordonbrander/lettersmith_py@f55fc63660da59c0e76d0ddab23436439dfccdbf#egg=lettersmith
 Markdown==2.6.11
 MarkupSafe==1.1.1
